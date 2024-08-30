@@ -1,3 +1,9 @@
+## Updated 
+
+- Additiion of add, and remove all buttons.
+- Connect first to metamask and ask for permission.
+- Then Exectue the command 
+
 # Mod2
 
 The contract contains a private array variable called "names," which will store the names added by users. The "private" visibility modifier restricts direct access to this variable from outside the contract.
