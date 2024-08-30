@@ -6,7 +6,7 @@ async function main() {
   console.log('Compiling contract...');
 
   // Define the initial balance
-  const initialBalance = ethers.utils.parseEther('1.0'); // Example: setting initial balance to 1 Ether
+  const initialBalance = ethers.utils.parseEther('1.0'); //setting initial balance to 1 Ether
 
   // Deploy the contract with the initial balance
   const myContract = await MyContract.deploy(initialBalance);
