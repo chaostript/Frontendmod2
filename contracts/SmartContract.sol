@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 contract Assessment {
     address payable public owner;
     uint256 public balance;
-    string[] private names; // Adding a list to store names
+    string[] private names; // Adding to store names
 
     event Deposit(uint256 amount);
     event Withdraw(uint256 amount);
