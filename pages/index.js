@@ -8,7 +8,7 @@ const contractABI = require('../artifacts/contracts/SmartContract.sol/SimpleCont
 const web3 = new Web3(Web3.givenProvider || 'http://localhost:8545');
 
 const App = () => {
-  // State for Smart Contract Interaction
+  // State Contract Interaction
   const [contract, setContract] = useState(null);
   const [name, setName] = useState('');
   const [names, setNames] = useState([]);
